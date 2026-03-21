@@ -10,6 +10,9 @@ This repository documents my journey in Artificial Intelligence and Machine Lear
 - Machine Learning
 - Projects
 
+  ## Projects
+- Student Marks Prediction
+
 ## 📂 Folder Structure
 AI-ML-Learning
 ├── Python-Basics

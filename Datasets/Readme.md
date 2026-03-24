@@ -11,3 +11,6 @@ This folder contains datasets used for ML practice.
 ## Source
 - Kaggle
 - sklearn datasets
+
+ ## Usage
+Used across ML-Basics and Projects folders.

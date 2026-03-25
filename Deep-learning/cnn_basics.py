@@ -1,1 +1,1 @@
-
+print("CNN basics placeholder")

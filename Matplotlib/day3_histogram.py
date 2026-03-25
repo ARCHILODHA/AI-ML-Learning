@@ -1,0 +1,6 @@
+import matplotlib.pyplot as plt
+
+data = [1,2,2,3,3,3]
+
+plt.hist(data)
+plt.show()

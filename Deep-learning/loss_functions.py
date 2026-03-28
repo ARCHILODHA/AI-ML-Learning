@@ -1,10 +1,7 @@
-import numpy as np
+iimport numpy as np
 
-def relu(x):
-    return np.maximum(0, x)
+def mse(y_true, y_pred):
+    return np.mean((y_true - y_pred) ** 2)
 
-def sigmoid(x):
-    return 1 / (1 + np.exp(-x))
-
-def tanh(x):
-    return np.tanh(x)
+def binary_crossentropy(y_true, y_pred):
+    return -np.mean(y_true*np.log(y_pred) + (1-y_true)*np.log(1-y_pred))

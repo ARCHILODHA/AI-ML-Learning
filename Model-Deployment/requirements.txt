@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+flask
+streamlit
+numpy
+pandas
+scikit-learn
+joblib
+pickle-mixin
+gunicorn
+requests

@@ -1,5 +1,5 @@
 # Categorical Encoding
-
+intro
 ## Why Encoding?
 
 Machine learning models require numerical inputs.

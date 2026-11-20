@@ -1,0 +1,27 @@
+{
+  "model_name": "customer_churn_predictor",
+  "model_version": "1.0.0",
+  "framework": "scikit-learn",
+  "algorithm": "RandomForestClassifier",
+  "task": "binary_classification",
+  "artifact_path": "model.joblib",
+  "input_features": [
+    "age",
+    "monthly_charges",
+    "tenure"
+  ],
+  "output_type": "class_label",
+  "training_environment": {
+    "python": "3.11",
+    "scikit_learn": "1.5.0"
+  },
+  "deployment": {
+    "framework": "FastAPI",
+    "environment": "production"
+  },
+  "monitoring": {
+    "track_latency": true,
+    "track_prediction_distribution": true,
+    "track_errors": true
+  }
+}
